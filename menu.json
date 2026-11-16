@@ -1,0 +1,105 @@
+{
+  "brand": {
+    "name": "CHICO TOWN BURGER",
+    "slogan": "A cidade do smash burger",
+    "phrases": ["Só coisa boa.", "Cada região, um sabor.", "Good beer, good people.", "Vem matar sua fome na cidade do Chico!"],
+    "instagram": "https://www.instagram.com/chicotownburger/",
+    "ifood": "https://www.ifood.com.br/delivery/guarulhos-sp/chico-town-burger-vila-progresso/f84a2e01-c719-48fa-93b3-dc1df23ec5d1?utm_medium=share"
+  },
+  "locations": [
+    {
+      "id": "guarulhos",
+      "name": "Chico Town · Guarulhos",
+      "district": "Centro",
+      "address": "Rua Conselheiro Antônio Prado, 103, Centro, Guarulhos - SP",
+      "hours": [
+        {"days": [3,4,5], "open": "12:00", "close": "23:00"},
+        {"days": [0,6], "open": "18:00", "close": "00:00"}
+      ],
+      "hoursLabel": "Quarta a sexta, 12h às 23h · Sábados, domingos e feriados, 18h às 00h",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Rua+Conselheiro+Ant%C3%B4nio+Prado%2C+103%2C+Guarulhos%2C+SP"
+    },
+    {
+      "id": "sao-miguel",
+      "name": "Chico Town · São Miguel",
+      "district": "Vila Nova Curuçá",
+      "address": "Av. Nordestina, 4441, Vila Nova Curuçá, São Paulo - SP · Dentro do @bubsbarsaomiguel",
+      "hours": null,
+      "hoursLabel": "[A CONFIRMAR] Horário de funcionamento",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Av.+Nordestina%2C+4441%2C+Vila+Nova+Curu%C3%A7%C3%A1%2C+S%C3%A3o+Paulo"
+    }
+  ],
+  "categories": [
+    {
+      "id": "lanches", "name": "Lanches", "eyebrow": "Os bairros mais pedidos", "icon": "🍔",
+      "items": [
+        {"name":"Prefeito Chico","price":38.00,"description":"Pão brioche, maionese da casa, 2 smash burger de 65g, queijo provolone, bacon, rúcula e catupiry.","district":"Prefeitura","art":"crown"},
+        {"name":"Centrinho","price":35.00,"description":"2 smash burger de 65g, queijo cheddar, alface, tomate e molho picles.","district":"Centro","art":"city"},
+        {"name":"Smash do Chico","price":29.90,"description":"Smash burger de 90g, queijo cheddar e molho picles.","district":"Praça Central","art":"burger"},
+        {"name":"Esquina do Frango","price":35.00,"description":"Frango empanado, queijo cheddar, alface, tomate e molho picles.","district":"Esquina","art":"street"},
+        {"name":"Baconville","price":35.00,"description":"2 smash burger de 65g, queijo cheddar e bacon fatiado.","district":"Baconville","art":"factory"},
+        {"name":"Estação Cheddar","price":35.00,"description":"Pão australiano, cebola caramelizada, 2 smash burger de 65g, molho cheddar e bacon.","district":"Estação","art":"train"},
+        {"name":"Velho Oeste","price":35.00,"description":"Pão brioche, maionese da casa, 2 smash burger de 65g, queijo cheddar, molho barbecue, cebola crispy e bacon fatiado.","district":"Velho Oeste","art":"cactus"},
+        {"name":"Texas Chicken","price":35.00,"description":"Pão brioche, maionese da casa, frango empanado, queijo cheddar, molho barbecue, cebola crispy e bacon fatiado.","district":"Texas","art":"cactus"},
+        {"name":"Vila Veg","price":35.00,"description":"Pão brioche, maionese da casa, hambúrguer de grão de bico com especiarias, queijo provolone, alface e tomate.","district":"Vila Veg","art":"leaf"},
+        {"name":"Chiquinho Kids","price":25.00,"description":"Pão brioche, smash burger e queijo cheddar.","district":"Vila Kids","art":"star"},
+        {"name":"Litoral","price":null,"description":"Pão brioche, maionese de wasabi, burger de camarão, couve crispy e catupiry.","district":"Litoral","art":"wave","availability":"Somente no salão","isNew":true}
+      ]
+    },
+    {
+      "id":"porcoes","name":"Porções","eyebrow":"Pra dividir (ou não)", "icon":"🍟",
+      "items":[
+        {"name":"Fritas","price":30.00,"description":"Batata frita crocante, acompanha maionese da casa.","district":"Praça das Fritas","art":"fries"},
+        {"name":"Fritas do Chico","price":35.00,"description":"Batata frita crocante com molho de cheddar e bacon picado.","district":"Baconville","art":"fries"},
+        {"name":"Nuggets do Chico","price":35.00,"description":"Tiras de peito de frango empanadas no tempurá, acompanha maionese da casa.","district":"Vila Crocante","art":"nuggets"}
+      ]
+    },
+    {
+      "id":"shakes","name":"Chico Shakes","eyebrow":"Gelados e cremosos","icon":"🥤",
+      "items":[
+        {"name":"Chocolate","price":25.00,"description":"Chico Shake de chocolate.","district":"Milkshake Avenue","art":"shake"},
+        {"name":"Morango","price":25.00,"description":"Chico Shake de morango.","district":"Milkshake Avenue","art":"shake"},
+        {"name":"Ovomaltine","price":25.00,"description":"Chico Shake de Ovomaltine.","district":"Milkshake Avenue","art":"shake"}
+      ]
+    },
+    {
+      "id":"bebidas","name":"Bebidas","eyebrow":"Pra refrescar a cidade","icon":"🥤",
+      "items":[
+        {"name":"Refrigerante","price":9.00,"description":"Refrigerante.","district":"Rua das Bebidas","art":"drink"},
+        {"name":"Suco","price":9.00,"description":"Suco.","district":"Rua das Bebidas","art":"drink"},
+        {"name":"Água Tônica","price":5.00,"description":"Água tônica.","district":"Rua das Bebidas","art":"drink"},
+        {"name":"Água","price":5.00,"description":"Água.","district":"Rua das Bebidas","art":"drink"},
+        {"name":"Água com gás","price":5.00,"description":"Água com gás.","district":"Rua das Bebidas","art":"drink"},
+        {"name":"Soda Italiana","price":15.00,"description":"Xarope de morango ou maracujá, suco de limão e água com gás.","district":"Rua das Bebidas","art":"drink"}
+      ]
+    },
+    {
+      "id":"chopps","name":"Chopps","eyebrow":"Good beer, good people","icon":"🍺",
+      "items":[
+        {"name":"Pilsen 330ml","price":12.90,"description":"Chopp Pilsen 330ml.","district":"Beer Garden","art":"beer"},
+        {"name":"IPA 330ml","price":16.00,"description":"Chopp IPA 330ml.","district":"Beer Garden","art":"beer"}
+      ]
+    },
+    {
+      "id":"drinks","name":"Drinks","eyebrow":"Um brinde à cidade","icon":"🍸",
+      "items":[
+        {"name":"Pink Lemon Chico","price":30.00,"description":"Vodka, suco de limão, xarope de morango e água gaseificada.","district":"Praça Neon","art":"cocktail"},
+        {"name":"Dog Amado","price":30.00,"description":"Cachaça Gabriela, limão e Fanta maracujá.","district":"Praça Neon","art":"cocktail"},
+        {"name":"Gin Tônica","price":30.00,"description":"Gin Tanqueray e água tônica.","district":"Praça Neon","art":"cocktail"},
+        {"name":"Gin Tropical","price":35.00,"description":"Gin Tanqueray e energético sabor tropical.","district":"Praça Neon","art":"cocktail"}
+      ]
+    }
+  ],
+  "combo": {"price":15.00,"description":"Adicione refri + batata ao seu lanche."},
+  "story": {"title":"De onde surgiu o nome?","text":"[TEXTO DA HISTÓRIA A SER INSERIDO PELO PROPRIETÁRIO]"},
+  "confirmations": [
+    "Preço do Litoral (burger de camarão).",
+    "Horários de funcionamento da unidade São Miguel.",
+    "Confirmar se a unidade São Miguel também trabalha com o cardápio completo e quais itens estão disponíveis no delivery.",
+    "Confirmar se a Chico Town é pet friendly antes de publicar uma seção AuMigos.",
+    "Texto oficial da história da marca e origem do nome.",
+    "Fotos oficiais dos lanches, porções, bebidas, ambiente e equipe para substituir os espaços reservados.",
+    "Confirmar se feriados seguem sempre o horário de 18h às 00h na unidade Guarulhos.",
+    "Link de localização enviado pelo proprietário: confirmar se aponta para uma unidade específica ou para ambas."
+  ]
+}

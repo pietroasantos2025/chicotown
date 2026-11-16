@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chico Town Burger | A cidade do smash burger em Guarulhos</title>
+  <meta name="description" content="Bem-vindo à Chico Town: a cidade do smash burger. Conheça os bairros do cardápio, encontre nossas unidades em Guarulhos e peça pelo iFood.">
+  <meta name="keywords" content="smash burger Guarulhos, hamburgueria Guarulhos, Chico Town Burger, hambúrguer artesanal">
+  <meta name="theme-color" content="#11100e">
+  <meta property="og:title" content="Chico Town Burger — A cidade do smash burger">
+  <meta property="og:description" content="Cada região, um sabor. Vem matar sua fome na cidade do Chico!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/chico-avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Nunito:wght@400;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json" id="restaurant-schema"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Chico Town, início"><img src="assets/chico-avatar.jpg" alt="Mascote Chico, cachorro preto segurando um hambúrguer"><span>CHICO<span class="brand-town">TOWN</span><small>BURGER</small></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#cardapio">Cardápio</a><a href="#historia">A cidade</a><a href="#unidades">Unidades</a><a href="#instagram">Instagram</a>
+      <a class="nav-order" href="#" data-ifood target="_blank" rel="noopener">PEDIR NO IFOOD ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg"><div class="moon"></div><div class="skyline skyline-back"></div><div class="skyline skyline-front"></div></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> GUIARULHOS · SÃO MIGUEL</p>
+        <h1>BEM-VINDO À<br><span>CHICO TOWN.</span></h1>
+        <p class="hero-sub">A cidade do <em>smash burger.</em></p>
+        <p class="hero-note">Cada região, um sabor. E o prefeito já está com fome.</p>
+        <div class="hero-actions"><a class="btn btn-orange" href="#" data-ifood target="_blank" rel="noopener">PEDIR NO IFOOD <span>↗</span></a><a class="btn btn-outline" href="#cardapio">EXPLORAR A CIDADE ↓</a></div>
+        <div class="hero-stamp">SÓ<br>COISA<br><b>BOA!</b></div>
+      </div>
+      <div class="hero-mascot">
+        <div class="speech" id="speech">Au! Bora de smash?</div>
+        <div class="mascot-ring"><img src="assets/chico-avatar.jpg" alt="Chico, o prefeito da cidade, com seu hambúrguer"></div>
+        <span class="mascot-caption">CHICO · PREFEITO</span>
+      </div>
+      <div class="hero-bottom"><span>SCROLL PRA CONHECER</span><span class="scroll-line"></span><span>01 / 06</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Frases da marca"><div class="ticker-track"><span>SÓ COISA BOA ✳</span><span>CADA REGIÃO, UM SABOR ✳</span><span>GOOD BEER, GOOD PEOPLE ✳</span><span>SÓ COISA BOA ✳</span><span>CADA REGIÃO, UM SABOR ✳</span></div></section>
+
+    <section class="menu-section section-pad" id="cardapio">
+      <div class="section-heading"><div><p class="eyebrow orange-text">GUIA OFICIAL DA CIDADE</p><h2>ESCOLHA SEU<br><span>BAIRRO.</span></h2></div><p class="heading-aside">O mapa da fome começa aqui.<br>Explore os sabores de Chico Town.</p></div>
+      <div class="category-tabs" role="tablist" aria-label="Categorias do cardápio" id="category-tabs"></div>
+      <div class="menu-intro"><span class="map-pin">⌖</span><span id="category-eyebrow">OS BAIRROS MAIS PEDIDOS</span><span class="menu-count" id="menu-count"></span></div>
+      <div class="menu-grid" id="menu-grid"></div>
+      <p class="price-note">* Valores do salão. No iFood os preços podem variar.</p>
+      <div class="combo-banner"><div class="combo-icon">＋</div><div><span class="eyebrow">FAÇA O UPGRADE</span><h3>COMBO DO CHICO</h3><p>Adicione refri + batata ao seu lanche.</p></div><strong>+ R$ 15,00</strong></div>
+      <div class="litoral-feature"><div class="litoral-art"><span>✳</span><b>BAIRRO<br>LITORAL</b><small>EDIÇÃO DE TEMPORADA</small></div><div class="litoral-copy"><span class="new-tag">NOVO · SÓ NO SALÃO</span><h3>O MAR CHEGOU<br>NA CIDADE.</h3><p>Pão brioche, maionese de wasabi, burger de camarão, couve crispy e catupiry.</p><p class="price-note">Preço [A CONFIRMAR]. Disponível somente no salão.</p></div></div>
+    </section>
+
+    <section class="quiz-section section-pad" id="passeio">
+      <div class="quiz-scribble">AU!</div><div class="quiz-copy"><p class="eyebrow">PASSEIO DO CHICO</p><h2>QUAL BAIRRO<br>É A SUA <span>CARA?</span></h2><p>Responda 3 perguntinhas e o prefeito escolhe seu próximo smash.</p></div>
+      <div class="quiz-box" id="quiz-box"><div class="quiz-progress"><span id="quiz-step">01 / 03</span><span class="progress-track"><i id="progress-fill"></i></span></div><h3 id="quiz-question">Qual é a sua vibe hoje?</h3><div class="quiz-options" id="quiz-options"></div><div class="quiz-result" id="quiz-result" hidden></div></div>
+    </section>
+
+    <section class="story-section section-pad" id="historia">
+      <div class="story-visual"><div class="brick-sign"><span>CHICO</span><b>TOWN</b><small>GOOD BEER · GOOD PEOPLE</small></div><div class="crown-doodle">♛</div></div>
+      <div class="story-copy"><p class="eyebrow orange-text">TODO BAIRRO TEM UMA HISTÓRIA</p><h2>QUEM É O<br><span>CHICO?</span></h2><h3>De onde surgiu o nome?</h3><p class="editable-story">[A história da Chico Town será contada aqui pelo próprio dono. Este espaço está pronto para receber o texto oficial — sem inventar nenhum capítulo.]</p><a class="text-link" href="https://www.instagram.com/chicotownburger/" target="_blank" rel="noopener">CONHEÇA A CIDADE NO INSTAGRAM ↗</a></div>
+    </section>
+
+    <section class="locations-section section-pad" id="unidades">
+      <div class="section-heading"><div><p class="eyebrow orange-text">DOIS ENDEREÇOS, A MESMA FOME</p><h2>ENCONTRE O<br><span>CHICO.</span></h2></div><p class="heading-aside">Chega mais. O prefeito<br>está esperando.</p></div>
+      <div class="location-grid" id="location-grid"></div>
+    </section>
+
+    <section class="instagram-section section-pad" id="instagram">
+      <div class="insta-copy"><p class="eyebrow">A CIDADE NO SEU FEED</p><h2>SEGUE O<br><span>CHICO.</span></h2><p>Novidades, lançamentos e os rolês da cidade.</p><a class="btn btn-lime" href="https://www.instagram.com/chicotownburger/" target="_blank" rel="noopener">@CHICOTOWNBURGER ↗</a></div>
+      <div class="insta-grid"><div class="insta-tile tile-large"><span>01</span><b>[FOTO OFICIAL<br>DO BURGER]</b></div><div class="insta-tile tile-brick"><span>02</span><b>[FOTO DO<br>AMBIENTE]</b></div><div class="insta-tile tile-lime"><span>03</span><b>[REELS /<br>NOVIDADES]</b></div><div class="insta-tile tile-orange"><span>04</span><b>[FOTO DA<br>GALERA]</b></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><img src="assets/chico-avatar.jpg" alt=""><div><strong>CHICO TOWN</strong><small>A CIDADE DO SMASH BURGER</small></div></div>
+    <p>Vem matar sua fome na cidade do Chico!</p>
+    <div class="footer-links"><a href="#cardapio">Cardápio</a><a href="#unidades">Unidades</a><a href="https://www.instagram.com/chicotownburger/" target="_blank" rel="noopener">Instagram ↗</a><a href="#" data-ifood target="_blank" rel="noopener">iFood ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> CHICO TOWN BURGER</span><span>FEITO PRA QUEM TEM FOME DE COISA BOA.</span></div>
+  </footer>
+
+  <a class="mobile-order" href="#" data-ifood target="_blank" rel="noopener"><span>🍔</span> PEDIR NO IFOOD <b>↗</b></a>
+  <script src="app.js" defer></script>
+</body></html>
